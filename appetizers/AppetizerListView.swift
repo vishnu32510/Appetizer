@@ -21,6 +21,8 @@ struct AppetizerListView: View {
         .onAppear{
             viewModel.getAppetizer()
         }
+        .alert(item: $viewModel.alertItem){alert in
+            Alert(title: alert.title, message: alert.message, dismissButton: alert.dimissButton)}
     }
 }
 

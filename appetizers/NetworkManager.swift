@@ -13,7 +13,15 @@ final class Networkanager{
     static let baseURL = "https://seanallen-course-backend.herokuapp.com/swiftui-fundamentals/"
     private let appetizerURL = baseURL + "appetizers"
     
+    
     private init() {}
+    
+//    func getAppetizerDetails(for id: Int,completed: @escaping ((Result<Appetizer,Error>) -> Void)){
+//        guard let appetizerDetailsURL = "\(appetizerURL)/\(id)" else {
+//            completed(.failure(APError.unabletoComplete))
+//            return
+//        }
+//    }
     
     func getAppetizers(completed: @escaping ((Result<[Appetizer], Error>) -> Void)){
         guard let url = URL(string: appetizerURL) else {
