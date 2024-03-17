@@ -7,18 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		27271EEB2BA52D4C00C75AA3 /* appetizersApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27271EEA2BA52D4C00C75AA3 /* appetizersApp.swift */; };
-		27271EED2BA52D4C00C75AA3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27271EEC2BA52D4C00C75AA3 /* ContentView.swift */; };
+		27271EEB2BA52D4C00C75AA3 /* AppetizersApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27271EEA2BA52D4C00C75AA3 /* AppetizersApp.swift */; };
+		27271EED2BA52D4C00C75AA3 /* AppetizerTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27271EEC2BA52D4C00C75AA3 /* AppetizerTabView.swift */; };
 		27271EEF2BA52D4D00C75AA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27271EEE2BA52D4D00C75AA3 /* Assets.xcassets */; };
 		27271EF22BA52D4D00C75AA3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27271EF12BA52D4D00C75AA3 /* Preview Assets.xcassets */; };
+		277079022BA67A7F005F08D6 /* AppetizerListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277079012BA67A7F005F08D6 /* AppetizerListView.swift */; };
+		277079042BA67A88005F08D6 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277079032BA67A88005F08D6 /* AccountView.swift */; };
+		277079062BA67A94005F08D6 /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277079052BA67A94005F08D6 /* OrderView.swift */; };
+		277079082BA68255005F08D6 /* Appetizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277079072BA68255005F08D6 /* Appetizer.swift */; };
+		2770790A2BA689A6005F08D6 /* AppetizerListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277079092BA689A6005F08D6 /* AppetizerListCell.swift */; };
+		2770790C2BA68AEC005F08D6 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2770790B2BA68AEC005F08D6 /* NetworkManager.swift */; };
+		2770790E2BA68E8A005F08D6 /* APError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2770790D2BA68E8A005F08D6 /* APError.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		27271EE72BA52D4C00C75AA3 /* appetizers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = appetizers.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		27271EEA2BA52D4C00C75AA3 /* appetizersApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = appetizersApp.swift; sourceTree = "<group>"; };
-		27271EEC2BA52D4C00C75AA3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		27271EEA2BA52D4C00C75AA3 /* AppetizersApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizersApp.swift; sourceTree = "<group>"; };
+		27271EEC2BA52D4C00C75AA3 /* AppetizerTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerTabView.swift; sourceTree = "<group>"; };
 		27271EEE2BA52D4D00C75AA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		27271EF12BA52D4D00C75AA3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		277079012BA67A7F005F08D6 /* AppetizerListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerListView.swift; sourceTree = "<group>"; };
+		277079032BA67A88005F08D6 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
+		277079052BA67A94005F08D6 /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
+		277079072BA68255005F08D6 /* Appetizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Appetizer.swift; sourceTree = "<group>"; };
+		277079092BA689A6005F08D6 /* AppetizerListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerListCell.swift; sourceTree = "<group>"; };
+		2770790B2BA68AEC005F08D6 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		2770790D2BA68E8A005F08D6 /* APError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APError.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +65,15 @@
 		27271EE92BA52D4C00C75AA3 /* appetizers */ = {
 			isa = PBXGroup;
 			children = (
-				27271EEA2BA52D4C00C75AA3 /* appetizersApp.swift */,
-				27271EEC2BA52D4C00C75AA3 /* ContentView.swift */,
+				27271EEA2BA52D4C00C75AA3 /* AppetizersApp.swift */,
+				277079072BA68255005F08D6 /* Appetizer.swift */,
+				27271EEC2BA52D4C00C75AA3 /* AppetizerTabView.swift */,
+				2770790D2BA68E8A005F08D6 /* APError.swift */,
+				277079012BA67A7F005F08D6 /* AppetizerListView.swift */,
+				277079092BA689A6005F08D6 /* AppetizerListCell.swift */,
+				277079052BA67A94005F08D6 /* OrderView.swift */,
+				2770790B2BA68AEC005F08D6 /* NetworkManager.swift */,
+				277079032BA67A88005F08D6 /* AccountView.swift */,
 				27271EEE2BA52D4D00C75AA3 /* Assets.xcassets */,
 				27271EF02BA52D4D00C75AA3 /* Preview Content */,
 			);
@@ -137,8 +158,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				27271EED2BA52D4C00C75AA3 /* ContentView.swift in Sources */,
-				27271EEB2BA52D4C00C75AA3 /* appetizersApp.swift in Sources */,
+				277079082BA68255005F08D6 /* Appetizer.swift in Sources */,
+				2770790E2BA68E8A005F08D6 /* APError.swift in Sources */,
+				2770790A2BA689A6005F08D6 /* AppetizerListCell.swift in Sources */,
+				277079042BA67A88005F08D6 /* AccountView.swift in Sources */,
+				27271EED2BA52D4C00C75AA3 /* AppetizerTabView.swift in Sources */,
+				2770790C2BA68AEC005F08D6 /* NetworkManager.swift in Sources */,
+				27271EEB2BA52D4C00C75AA3 /* AppetizersApp.swift in Sources */,
+				277079022BA67A7F005F08D6 /* AppetizerListView.swift in Sources */,
+				277079062BA67A94005F08D6 /* OrderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

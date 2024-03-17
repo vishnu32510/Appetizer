@@ -8,10 +8,10 @@
 import SwiftUI
 
 @main
-struct appetizersApp: App {
+struct AppetizersApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            AppetizerTabView()
         }
     }
 }
