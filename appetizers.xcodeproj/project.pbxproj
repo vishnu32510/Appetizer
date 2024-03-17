@@ -18,6 +18,7 @@
 		2770790A2BA689A6005F08D6 /* AppetizerListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277079092BA689A6005F08D6 /* AppetizerListCell.swift */; };
 		2770790C2BA68AEC005F08D6 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2770790B2BA68AEC005F08D6 /* NetworkManager.swift */; };
 		2770790E2BA68E8A005F08D6 /* APError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2770790D2BA68E8A005F08D6 /* APError.swift */; };
+		27B78C112BA6BBF200AD6690 /* AppetizerListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B78C102BA6BBF200AD6690 /* AppetizerListViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		277079092BA689A6005F08D6 /* AppetizerListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerListCell.swift; sourceTree = "<group>"; };
 		2770790B2BA68AEC005F08D6 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		2770790D2BA68E8A005F08D6 /* APError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APError.swift; sourceTree = "<group>"; };
+		27B78C102BA6BBF200AD6690 /* AppetizerListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerListViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,7 @@
 				27271EEC2BA52D4C00C75AA3 /* AppetizerTabView.swift */,
 				2770790D2BA68E8A005F08D6 /* APError.swift */,
 				277079012BA67A7F005F08D6 /* AppetizerListView.swift */,
+				27B78C102BA6BBF200AD6690 /* AppetizerListViewModel.swift */,
 				277079092BA689A6005F08D6 /* AppetizerListCell.swift */,
 				277079052BA67A94005F08D6 /* OrderView.swift */,
 				2770790B2BA68AEC005F08D6 /* NetworkManager.swift */,
@@ -161,6 +164,7 @@
 				277079082BA68255005F08D6 /* Appetizer.swift in Sources */,
 				2770790E2BA68E8A005F08D6 /* APError.swift in Sources */,
 				2770790A2BA689A6005F08D6 /* AppetizerListCell.swift in Sources */,
+				27B78C112BA6BBF200AD6690 /* AppetizerListViewModel.swift in Sources */,
 				277079042BA67A88005F08D6 /* AccountView.swift in Sources */,
 				27271EED2BA52D4C00C75AA3 /* AppetizerTabView.swift in Sources */,
 				2770790C2BA68AEC005F08D6 /* NetworkManager.swift in Sources */,
