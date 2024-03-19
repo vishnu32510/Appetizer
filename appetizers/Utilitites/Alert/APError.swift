@@ -12,6 +12,4 @@ enum APError: Error {
     case invalidResponse
     case invalidData
     case unabletoComplete
-    case valueMissing
-    case invalidEmail
 }

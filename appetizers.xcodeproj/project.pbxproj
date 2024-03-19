@@ -28,6 +28,9 @@
 		2770790E2BA68E8A005F08D6 /* APError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2770790D2BA68E8A005F08D6 /* APError.swift */; };
 		27B78C112BA6BBF200AD6690 /* AppetizerListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B78C102BA6BBF200AD6690 /* AppetizerListViewModel.swift */; };
 		27B78C132BA6C1EF00AD6690 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B78C122BA6C1EF00AD6690 /* Alert.swift */; };
+		27E8CBF52BA968730036B292 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E8CBF42BA968730036B292 /* User.swift */; };
+		27E8CBF72BA973E20036B292 /* OrderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E8CBF62BA973E20036B292 /* OrderViewModel.swift */; };
+		27E8CBFA2BA974710036B292 /* EmptyState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E8CBF92BA974710036B292 /* EmptyState.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,6 +56,9 @@
 		2770790D2BA68E8A005F08D6 /* APError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APError.swift; sourceTree = "<group>"; };
 		27B78C102BA6BBF200AD6690 /* AppetizerListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerListViewModel.swift; sourceTree = "<group>"; };
 		27B78C122BA6C1EF00AD6690 /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		27E8CBF42BA968730036B292 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		27E8CBF62BA973E20036B292 /* OrderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderViewModel.swift; sourceTree = "<group>"; };
+		27E8CBF92BA974710036B292 /* EmptyState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyState.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,9 +91,9 @@
 		27271EE92BA52D4C00C75AA3 /* appetizers */ = {
 			isa = PBXGroup;
 			children = (
-				2752A1DA2BA79F0D003E05DD /* Views */,
 				2752A1D92BA79ED0003E05DD /* Model */,
 				2752A1D52BA79E8A003E05DD /* Utilitites */,
+				2752A1DA2BA79F0D003E05DD /* Views */,
 				2752A1D12BA79E19003E05DD /* Screens */,
 				27271EEA2BA52D4C00C75AA3 /* AppetizersApp.swift */,
 				27271EEE2BA52D4D00C75AA3 /* Assets.xcassets */,
@@ -147,6 +153,7 @@
 			isa = PBXGroup;
 			children = (
 				277079052BA67A94005F08D6 /* OrderView.swift */,
+				27E8CBF62BA973E20036B292 /* OrderViewModel.swift */,
 			);
 			path = OrderView;
 			sourceTree = "<group>";
@@ -191,6 +198,7 @@
 			isa = PBXGroup;
 			children = (
 				277079072BA68255005F08D6 /* Appetizer.swift */,
+				27E8CBF42BA968730036B292 /* User.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -198,6 +206,7 @@
 		2752A1DA2BA79F0D003E05DD /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				27E8CBF82BA974620036B292 /* EmptyState */,
 				2728A4042BA91ED40059B145 /* Buttons */,
 				2752A1DD2BA79F2A003E05DD /* Image */,
 				2752A1DC2BA79F21003E05DD /* Cells */,
@@ -228,6 +237,14 @@
 				2752A1CF2BA79B32003E05DD /* RemoteImage.swift */,
 			);
 			path = Image;
+			sourceTree = "<group>";
+		};
+		27E8CBF82BA974620036B292 /* EmptyState */ = {
+			isa = PBXGroup;
+			children = (
+				27E8CBF92BA974710036B292 /* EmptyState.swift */,
+			);
+			path = EmptyState;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -308,6 +325,7 @@
 				27B78C112BA6BBF200AD6690 /* AppetizerListViewModel.swift in Sources */,
 				2752A1CE2BA79463003E05DD /* Color+Ext.swift in Sources */,
 				2728A4082BA91F700059B145 /* CloseButton.swift in Sources */,
+				27E8CBF52BA968730036B292 /* User.swift in Sources */,
 				2728A4062BA91EE40059B145 /* APButton.swift in Sources */,
 				277079042BA67A88005F08D6 /* AccountView.swift in Sources */,
 				2752A1CC2BA79385003E05DD /* LoadingView.swift in Sources */,
@@ -315,10 +333,12 @@
 				2770790C2BA68AEC005F08D6 /* NetworkManager.swift in Sources */,
 				2728A40C2BA927130059B145 /* String+Ext.swift in Sources */,
 				2752A1D02BA79B32003E05DD /* RemoteImage.swift in Sources */,
+				27E8CBF72BA973E20036B292 /* OrderViewModel.swift in Sources */,
 				27271EEB2BA52D4C00C75AA3 /* AppetizersApp.swift in Sources */,
 				27B78C132BA6C1EF00AD6690 /* Alert.swift in Sources */,
 				277079022BA67A7F005F08D6 /* AppetizerListView.swift in Sources */,
 				277079062BA67A94005F08D6 /* OrderView.swift in Sources */,
+				27E8CBFA2BA974710036B292 /* EmptyState.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
