@@ -20,8 +20,6 @@
 
 ![HomeView](https://github.com/vishnu32510/Appetizer/assets/76788079/aaae2a8d-6fa3-48c6-ab51-c143b1da029e)![AccountView](https://github.com/vishnu32510/Appetizer/assets/76788079/850c8ac2-8ae2-4a5e-8f9d-09f47b1b27da)![OrderView](https://github.com/vishnu32510/Appetizer/assets/76788079/25562db6-6714-412f-b1cb-bc64a0606269)
 
-### In Progress
-
 ## Built With
 
 SwiftUI
